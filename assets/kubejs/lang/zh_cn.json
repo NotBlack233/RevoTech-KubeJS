@@ -1,0 +1,15 @@
+{
+    "tooltip.kubejs.flint_shovel": "§7在挖掘沙砾时有 §625% §7概率额外掉落一个燧石",
+    "tooltip.kubejs.primal_tools_disabled": "§c木制和石制工具已被禁用",
+    "tooltip.kubejs.research.stage": "§7阶段 ",
+    "tooltip.kubejs.research.progress": "§7进度 §e%1$s/%2$s",
+    "tooltip.kubejs.research.error": "§c错误：研究物品没有nbt标签",
+    "tooltip.kubejs.research.eureka": "§e尤里卡：",
+    "tooltip.kubejs.research.infinite_times": "§b无限次数",
+
+    "info.kubejs.anvil_repair": "可以在副手持有铁锭时用工程师锤潜行右键修理",
+    "msg.kubejs.no_experience": "§c你没有足够的经验值来进行该操作",
+    "msg.kubejs.cmd.techtree.no_current_stage": "当前未进行研究",
+    "msg.kubejs.cmd.techtree.stage_started": "已开始研究 %s 阶段",
+    "msg.kubejs.cmd.techtree.stage_points": "阶段 %1$s 已有 %2$s/%3$s 点数"
+}

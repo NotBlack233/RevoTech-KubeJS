@@ -1,0 +1,15 @@
+{
+    "tooltip.kubejs.flint_shovel": "§7Has a chance of §625% §7to drop an extra flint when mining gravel",
+    "tooltip.kubejs.primal_tools_disabled": "§cWooden and stone tools are disabled",
+    "tooltip.kubejs.research.stage": "§7Stage ",
+    "tooltip.kubejs.research.progress": "§7Progress §e%1$s/%2$s",
+    "tooltip.kubejs.research.error": "§cError: no nbt tags found",
+    "tooltip.kubejs.research.eureka": "§eEureka:",
+    "tooltip.kubejs.research.infinite_times": "§binfinite times",
+
+    "info.kubejs.anvil_repair": "Can be repaired by right-clicking when crouching, with an Engineer's Hammer in the main hand, and iron ingots in the off hand",
+    "msg.kubejs.no_experience": "§cYou do not have enough experience to perform this action",
+    "msg.kubejs.cmd.techtree.no_current_stage": "There is no active research",
+    "msg.kubejs.cmd.techtree.stage_started": "Started the research of stage %s ",
+    "msg.kubejs.cmd.techtree.stage_points": "Stage %1$s has %2$s/%3$s points"
+}

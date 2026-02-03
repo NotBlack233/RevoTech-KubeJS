@@ -1,0 +1,1 @@
+type GasStack = {amount: number, gas: string}
