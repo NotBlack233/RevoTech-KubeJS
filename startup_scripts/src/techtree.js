@@ -69,8 +69,100 @@ const TechTree = {
         points: 20,
         item: 'stone_plate',
         eureka: {
+            fences: {
+                items: [{item: 'minecraft:oak_fence', count: 6}],
+                ingredients: [{item: '#minecraft:fences', count: 6}],
+                points: 5,
+                times: 0,
+                total_times: 3
+            },
+            beef: {
+                items: [{item: 'minecraft:beef', count: 1}],
+                points: 5,
+                times: 0,
+                total_times: -1
+            },
+            pork: {
+                items: [{item: 'minecraft:porkchop', count: 1}],
+                points: 5,
+                times: 0,
+                total_times: -1
+            },
+            mutton: {
+                items: [{item: 'minecraft:mutton', count: 1}],
+                points: 5,
+                times: 0,
+                total_times: -1
+            },
+            chicken: {
+                items: [{item: 'minecraft:chicken', count: 1}],
+                points: 5,
+                times: 0,
+                total_times: -1
+            }
+        }
+    },
+    copper: {
+        points: 35,
+        item: 'stone_plate',
+        eureka: {
+            raw_copper: {
+                items: [{item: 'minecraft:raw_copper', count: 1}],
+                points: 5,
+                times: 0,
+                total_times: -1
+            },
+            cobblestone: {
+                items: [{item: 'minecraft:cobblestone', count: 32}],
+                points: 5,
+                times: 0,
+                total_times: 2
+            }
+        }
+    },
+    copper_alloy: {
+        points: 40,
+        item: 'stone_plate',
+        eureka: {
+            copper_tin: {
+                items: [{item: 'minecraft:copper_ingot', count: 3}, {item: 'thermal:tin_ingot', count: 1}],
+                points: 10,
+                times: 0,
+                total_times: -1
+            },
+            ceramics: {
+                items: [{item: 'minecraft:brick', count: 16}, {item: 'minecraft:sandstone', count: 16}],
+                points: 10,
+                times: 0,
+                total_times: 2
+            }
+        }
+    },
+    dry_distillation: {
+        points: 40,
+        item: 'stone_plate',
+        eureka: {
+            coal: {
+                items: [{item: 'minecraft:coal', count: 8}],
+                points: 10,
+                times: 0,
+                total_times: -1
+            },
+            charcoal: {
+                items: [{item: 'minecraft:charcoal', count: 12}],
+                points: 10,
+                times: 0,
+                total_times: 2
+            }
+        }
+    },
+    sewing: {
+        item: 'stone_plate',
+        points: 40,
+        eureka: {
             wool: {
                 items: [{item: 'minecraft:white_wool', count: 3}],
+                ingredients: [{item: '#minecraft:wool', count: 3}],
                 points: 10,
                 times: 0,
                 total_times: -1
@@ -83,16 +175,27 @@ const TechTree = {
             }
         }
     },
-    copper: {
-        points: 35,
-        item: 'stone_plate'
-    },
-    copper_alloy: {
-        points: 40,
-        item: 'stone_plate'
-    },
 
     // Classical Era
+    iron_working: {
+        points: 50,
+        item: 'wood_slip',
+        eureka: {
+            raw_iron: {
+                items: [{item: 'minecraft:raw_iron', count: 1}],
+                points: 10,
+                times: 0,
+                total_times: -1
+            },
+            coke: {
+                items: [{item: 'thermal:coal_coke', count: 1}],
+                points: 5,
+                times: 0,
+                total_times: 4
+            }
+        }
+    },
+
     // Medieval~Renaissance Era
     steam_power: {
         points: 100,

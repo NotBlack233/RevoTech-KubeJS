@@ -39,5 +39,8 @@ ServerEvents.recipes(event => {
     removeById('thermal_extra:sticky_ball_to_paper')
     removeById('create:pressing/sugar_cane')
     removeById('scguns:pebbles_from_gravel')
+    removeById('thermal:gunpowder_4')
+    removeById('immersiveengineering:crafting/gunpowder_from_dusts')
+    removeById('tacz:gunpowder')
     event.remove({'type': 'ad_astra:alloying'})
 })
