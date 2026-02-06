@@ -11,5 +11,11 @@
     "msg.kubejs.no_experience": "§cYou do not have enough experience to perform this action",
     "msg.kubejs.cmd.techtree.no_current_stage": "There is no active research",
     "msg.kubejs.cmd.techtree.stage_started": "Started the research of stage %s ",
-    "msg.kubejs.cmd.techtree.stage_points": "Stage %1$s has %2$s/%3$s points"
+    "msg.kubejs.cmd.techtree.stage_points": "Stage %1$s has %2$s/%3$s points",
+
+    "revotech.mechanical_calculator": "Mechanical Calculator",
+    "revotech.modern_computer": "Modern Computer",
+    "revotech.prototype_computer": "Prototype Computer",
+    "revotech.quantum_computer": "Quantum Computer",
+    "revotech.research_table": "Researching"
 }

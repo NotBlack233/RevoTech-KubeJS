@@ -11,5 +11,11 @@
     "msg.kubejs.no_experience": "§c你没有足够的经验值来进行该操作",
     "msg.kubejs.cmd.techtree.no_current_stage": "当前未进行研究",
     "msg.kubejs.cmd.techtree.stage_started": "已开始研究 %s 阶段",
-    "msg.kubejs.cmd.techtree.stage_points": "阶段 %1$s 已有 %2$s/%3$s 点数"
+    "msg.kubejs.cmd.techtree.stage_points": "阶段 %1$s 已有 %2$s/%3$s 点数",
+
+    "revotech.mechanical_calculator": "机械计算器",
+    "revotech.modern_computer": "现代计算机",
+    "revotech.prototype_computer": "初代计算机",
+    "revotech.quantum_computer": "量子计算机",
+    "revotech.research_table": "研究"
 }
