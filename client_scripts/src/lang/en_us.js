@@ -6,6 +6,7 @@ ClientEvents.lang('zh_cn', event => {
      * @type {[string, string][]}
      */
     let quests_research = [
+        // TODO: English translate
         ['origin', '起点'],
         ['sailing', '航海术'],
         ['animal_husbandry', '畜牧业'],
@@ -69,90 +70,41 @@ ClientEvents.lang('zh_cn', event => {
     let quests_research_map = new Map()
 
     let research_items = {
-        'stone_plate': '石板',
-        'wood_slip': '木简',
-        'paper_stack': '纸堆',
-        'punch_tape': '纸带',
-        'disk_drive': '硬盘',
-        'quantum_medium': '量子介质'
+        'stone_plate': 'Stone Plate',
+        'wood_slip': 'Wood Slip',
+        'paper_stack': 'Paper Stack',
+        'punch_tape': 'Punch Tape',
+        'disk_drive': 'Disk Drive',
+        'quantum_medium': 'Quantum Medium'
     }
 
     /**
      * @type {[Internal.Item_, string][]}
      */
     let items = [
-        ['kubejs:bronze_axe', '青铜斧'],
-        ['kubejs:bronze_hoe', '青铜锄'],
-        ['kubejs:bronze_pickaxe', '青铜镐'],
-        ['kubejs:bronze_shovel', '青铜锹'],
-        ['kubejs:bronze_sword', '青铜剑'],
-        ['kubejs:copper_axe', '铜斧'],
-        ['kubejs:copper_hoe', '铜锄'],
-        ['kubejs:copper_pickaxe', '铜镐'],
-        ['kubejs:copper_shovel', '铜锹'],
-        ['kubejs:copper_sword', '铜剑'],
-        ['kubejs:flint_axe', '燧石斧'],
-        ['kubejs:flint_pickaxe', '燧石镐'],
-        ['kubejs:flint_shovel', '燧石锹'],
-        ['kubejs:data', '数据'],
-        ['kubejs:inspiration', '灵感'],
-        ['kubejs:sodium_peroxide_dust', '过氧化钠粉'],
-        ['kubejs:calcium_carbonate_dust', '碳酸钙粉'],
-        ['kubejs:aqua_bun', '水馒头'],
-        ['kubejs:stone_plate', '石板'],
-        ['kubejs:wood_slip', '木简'],
-        ['kubejs:paper_stack', '纸堆'],
-        ['kubejs:punch_tape', '纸带'],
-        ['kubejs:disk_drive', '硬盘'],
-        ['kubejs:quantum_medium', '量子介质'],
-        ['kubejs:incomplete_electron_tube', '电子管（半成品）'],
-        ['kubejs:incomplete_paper', '纸（半成品）'],
-        ['kubejs:elytra_piece', '鞘翅碎片'],
-        ['scguns:blunderbuss', '喇叭枪'],
-        ['scguns:diamond_bayonet', '钻石刺刀'],
-        ['scguns:flintlock_pistol', '燧发手枪'],
-        ['scguns:grapeshot', '葡萄弹'],
-        ['scguns:gun_bench', '枪械工作台'],
-        ['scguns:gun_grip', '枪械握柄'],
-        ['scguns:gun_shelf', ' 枪架'],
-        ['scguns:gunpowder_dust', '小撮火药粉'],
-        ['scguns:handcannon', '手炮'],
-        ['scguns:hardened_pebbles', '硬化弹丸'],
-        ['scguns:iron_bayonet', '铁刺刀'],
-        ['scguns:musket', '火枪'],
-        ['scguns:netherite_bayonet', '下界合金刺刀'],
-        ['scguns:pebbles', '弹丸'],
-        ['scguns:powder_and_ball', '燧发弹药'],
-        ['scguns:repair_kit', '修理套装'],
-        ['scguns:special_ammo_box', '特殊弹药盒'],
-        ['scguns:stone_gun_barrel', '铁制枪管'],
-        ['scguns:wooden_stock', '木制枪托']
+        ['scguns:stone_gun_barrel', 'Iron Gun Barrel']
     ]
     /**
      * @type {[Internal.Block_, string][]}
      */
     let blocks = [
-        ['revotech:research_table', '研究台'],
-        ['revotech:mechanical_calculator', '机械计算器'],
-        ['revotech:prototype_computer', '初代计算机'],
-        ['revotech:modern_computer', '现代计算机'],
-        ['revotech:quantum_computer', '量子计算机']
+        ['revotech:research_table', 'Research Table'],
+        ['revotech:mechanical_calculator', 'Mechanical Calculator'],
+        ['revotech:prototype_computer', 'Prototype Computer'],
+        ['revotech:modern_computer', 'Modern Computer'],
+        ['revotech:quantum_computer', 'Quantum Computer']
     ]
     /**
      * @type {[Internal.Fluid_, string][]}
      */
     let fluids = [
-        ['kubejs:data_fluid', '数据流体'],
-        ['kubejs:inspiration_fluid', '灵感流体'],
-        ['kubejs:molten_sodium', '熔融钠'],
-        ['kubejs:sodium_hydroxide', '氢氧化钠'],
-        ['kubejs:molten_aluminum', '熔融铝']
     ]
 
-    quests_research.forEach(([key, text]) => {
-        event.add(`title.quest.r.${key}`, text)
-        quests_research_map.set(key, text)
-    })
+    // TODO: English translate
+    // quests_research.forEach(([key, text]) => {
+    //     event.add(`title.quest.r.${key}`, text)
+    //     quests_research_map.set(key, text)
+    // })
 
     for (let stage in TechTree) {
         event.add(`item.kubejs.${TechTree[stage].item}_${stage}`, `${research_items[TechTree[stage].item]} - ${quests_research_map.get(stage)}`)
@@ -170,6 +122,6 @@ ClientEvents.lang('zh_cn', event => {
         let [modid, id] = key.split(':')
 		event.add(`fluid.${modid}.${id}`, text)
 		event.add(`block.${modid}.${id}`, text)
-		event.add(`item.${modid}.${id}_bucket`, `${text}桶`)
+		event.add(`item.${modid}.${id}_bucket`, `${text} Bucket`)
 	})
 })
