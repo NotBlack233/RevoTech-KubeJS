@@ -17,17 +17,6 @@ const RTUtils = {
      * @param {Internal.ItemStack} stack 
      */
     validResearchStack(stack) {
-        // /**
-        //  * @type {Internal.ItemStack_[]}
-        //  */
-        // let ids = [
-        //     'kubejs:stone_plate',
-        //     'kubejs:wood_slip',
-        //     'kubejs:paper_stack',
-        //     'kubejs:punch_tape',
-        //     'kubejs:disk_drive',
-        //     'kubejs:quantum_medium'
-        // ]
         if (!stack.nbt || !stack.nbt.total)
             return false
         if (!stack.nbt.progress)

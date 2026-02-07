@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     /**
-     * 
+     * e.g. `taczCrafting(['diamond'], {'count': 1, 'type': 'ammo', 'id': 'tacz:12g'})`
      * @param {Internal.ItemStack_[]} materials 
      * @param {GunSmithResult} result 
      */
@@ -11,5 +11,4 @@ ServerEvents.recipes(event => {
             "type": "tacz:gun_smith_table_crafting"
         })
     }
-    // taczCrafting(['diamond'], {'count': 1, 'type': 'ammo', 'id': 'tacz:12g'})
 })

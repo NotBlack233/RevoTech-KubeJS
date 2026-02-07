@@ -25,5 +25,4 @@ ServerEvents.recipes(event => {
     t.rock_gen('create:scorchia', 'magma_block', 'create:chocolate')
     
     t_extra.component_assembly([Item.of('kubejs:disk_drive')], [Ingredient.of('ae2:item_cell_housing'), Ingredient.of('ae2:cell_component_4k'), Fluid.of('thermal:redstone', 250)], 20000)
-
 })

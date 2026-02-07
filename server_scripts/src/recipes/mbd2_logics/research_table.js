@@ -22,12 +22,6 @@ ServerEvents.recipes(event => {
         .inputItems(items)
         .uiName('research', b => b.slotName('research', input_material(stage)))
         .duration(20)
-    
-    // research('mining', '5x flint').id(r_id('mining', 'flint'))
-    // research('mining', '10x #forge:gravel').id(r_id('mining', 'gravel'))
-
-    // research('steam_power', ['8x #forge:storage_blocks/copper', '4x gold_ingot']).id(r_id('steam_power', 'metal'))
-    // research('steam_power', '4x create:blaze_burner').id(r_id('steam_power', 'blaze'))
 
     for (const tech_name in TechTree) {
         let tech = TechTree[tech_name]

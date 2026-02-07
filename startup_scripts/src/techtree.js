@@ -225,12 +225,6 @@ const TechTree = {
 global['TechTree'] = TechTree
 
 StartupEvents.registry('item', event => {
-    // event.create('stone_plate')
-    // event.create('wood_slip')
-    // event.create('paper_stack')
-    // event.create('punch_tape').rarity('uncommon')
-    // event.create('disk_drive').rarity('rare')
-    // event.create('quantum_medium').rarity('epic')
     for (let stage in TechTree) {
         event.create(`${TechTree[stage].item}_${stage}`).texture(`kubejs:item/${TechTree[stage].item}`)
     }

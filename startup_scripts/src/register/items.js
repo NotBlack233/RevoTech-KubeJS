@@ -35,7 +35,6 @@ StartupEvents.registry('item', event => {
             .effect('speed', 60*20, 0, 1)
             .effect('haste', 60*20, 0, 1)
     })
-    // event.create('data').rarity('uncommon')
     event.create('inspiration').rarity('rare')
     event.create('sodium_peroxide_dust')
     event.create('calcium_carbonate_dust')
