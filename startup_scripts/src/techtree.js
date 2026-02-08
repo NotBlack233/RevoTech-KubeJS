@@ -222,6 +222,8 @@ const TechTree = {
     // Atomic~Information Era
     // Future Era
 }
+
+// Make sure we can access `TechTree` from client and server scripts
 global['TechTree'] = TechTree
 
 StartupEvents.registry('item', event => {
