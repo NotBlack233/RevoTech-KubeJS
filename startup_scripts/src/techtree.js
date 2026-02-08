@@ -195,6 +195,189 @@ const TechTree = {
             }
         }
     },
+    gunpowder: {
+        points: 50,
+        item: 'wood_slip',
+        eureka: {
+            sulfur: {
+                items: [{item: 'thermal:sulfur_dust', count: 4}],
+                points: 5,
+                times: 0,
+                total_times: -1
+            },
+            niter: {
+                items: [{item: 'thermal:niter_dust', count: 4}],
+                points: 5,
+                times: 0,
+                total_times: -1
+            },
+            charcoal: {
+                items: [{item: 'minecraft:charcoal', count: 16}],
+                points: 10,
+                times: 0,
+                total_times: 1
+            },
+            sugar: {
+                items: [{item: 'minecraft:sugar', count: 16}],
+                points: 10,
+                times: 0,
+                total_times: 1
+            }
+        }
+    },
+    lava: {
+        item: 'wood_slip',
+        points: 50,
+        eureka: {
+            iron_bucket: {
+                items: [{item: 'minecraft:bucket', count: 1}],
+                points: 10,
+                times: 0,
+                total_times: -1
+            },
+            cobblestone: {
+                items: [{item: 'minecraft:cobblestone', count: 64}],
+                points: 10,
+                times: 0,
+                total_times: 1
+            },
+            obsidian: {
+                items: [{item: 'minecraft:obsidian', count: 8}],
+                points: 10,
+                times: 0,
+                total_times: 3
+            }
+        }
+    },
+    permanent_sponges: {
+        item: 'wood_slip',
+        points: 50,
+        eureka: {
+            sponge: {
+                items: [{item: 'minecraft:sponge', count: 4}],
+                points: 30,
+                times: 0,
+                total_times: 1
+            },
+            wool: {
+                items: [{item: 'minecraft:white_wool', count: 8}],
+                ingredients: [{item: '#minecraft:wool', count: 8}],
+                points: 10,
+                times: 0,
+                total_times: -1
+            }
+        }
+    },
+    magmatic_sponge: {
+        item: 'wood_slip',
+        points: 50,
+        eureka: {
+            lava: {
+                items: [{item: 'minecraft:lava_bucket', count: 1}],
+                points: 10,
+                times: 0,
+                total_times: 3
+            },
+            magma_cream: {
+                items: [{item: 'minecraft:magma_cream', count: 4}],
+                points: 10,
+                times: 0,
+                total_times: -1
+            }
+        }
+    },
+    navigation: {
+        item: 'wood_slip',
+        points: 50,
+        eureka: {
+            magnet: {
+                items: [{item: 'create_new_age:magnetite_block', count: 2}],
+                points: 30,
+                times: 0,
+                total_times: 1
+            },
+            redstone: {
+                items: [{item: 'minecraft:redstone', count: 8}],
+                points: 10,
+                times: 0,
+                total_times: -1
+            }
+        }
+    },
+    engineering: {
+        item: 'wood_slip',
+        points: 70,
+        eureka: {
+            iron: {
+                items: [{item: 'minecraft:iron_ingot', count: 8}],
+                points: 10,
+                times: 0,
+                total_times: 3
+            },
+            andesite: {
+                items: [{item: 'minecraft:andesite', count: 32}],
+                points: 10,
+                times: 0,
+                total_times: 2
+            },
+            stripped_log: {
+                items: [{item: 'minecraft:stripped_oak_log', count: 16}],
+                ingredients: [{item: '#forge:stripped_logs', count: 16}],
+                points: 10,
+                times: 0,
+                total_times: 4
+            }
+        }
+    },
+    nether: {
+        item: 'wood_slip',
+        points: 60,
+        eureka: {
+            obsidian: {
+                items: [{item: 'minecraft:obsidian', count: 4}],
+                points: 10,
+                times: 0,
+                total_times: -1
+            },
+            fns: {
+                items: [{item: 'minecraft:flint_and_steel', count: 1}],
+                points: 10,
+                times: 0,
+                total_times: 1
+            },
+            leather: {
+                items: [{item: 'minecraft:leather', count: 4}],
+                points: 20,
+                times: 0,
+                total_times: 2
+            }
+        }
+    },
+    porcelains: {
+        item: 'wood_slip',
+        points: 50,
+        eureka: {
+            kiln: {
+                items: [{item: 'ceramics:kiln', count: 1}],
+                points: 20,
+                times: 0,
+                total_times: 1
+            },
+            terracotta: {
+                items: [{item: 'minecraft:terracotta', count: 8}],
+                ingredients: [{item: '#minecraft:terracotta', count: 8}],
+                points: 10,
+                times: 0,
+                total_times: -1
+            },
+            brick: {
+                items: [{item: 'minecraft:brick', count: 8}],
+                points: 5,
+                times: 0,
+                total_times: -1
+            }
+        }
+    },
 
     // Medieval~Renaissance Era
     steam_power: {
