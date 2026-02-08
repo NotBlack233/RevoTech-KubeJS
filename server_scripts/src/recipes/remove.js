@@ -42,5 +42,6 @@ ServerEvents.recipes(event => {
     removeById('thermal:gunpowder_4')
     removeById('immersiveengineering:crafting/gunpowder_from_dusts')
     removeById('tacz:gunpowder')
+    removeById('minecraft:compass')
     event.remove({'type': 'ad_astra:alloying'})
 })
