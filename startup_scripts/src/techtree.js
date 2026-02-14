@@ -249,7 +249,7 @@ const TechTree = {
             }
         }
     },
-    permanent_sponges: {
+    permanent_sponge: {
         item: 'wood_slip',
         points: 50,
         eureka: {
