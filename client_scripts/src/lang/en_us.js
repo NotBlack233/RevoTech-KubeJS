@@ -82,7 +82,8 @@ ClientEvents.lang('zh_cn', event => {
      * @type {[Internal.Item_, string][]}
      */
     let items = [
-        ['scguns:stone_gun_barrel', 'Iron Gun Barrel']
+        ['scguns:stone_gun_barrel', 'Iron Gun Barrel'],
+        ['create:electron_tube', 'Redstone Tube']
     ]
     /**
      * @type {[Internal.Block_, string][]}

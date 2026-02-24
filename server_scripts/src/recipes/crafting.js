@@ -49,7 +49,6 @@ ServerEvents.recipes(event => {
     event.replaceInput({'id': 'tiab:time_in_a_bottle'}, 'glass_bottle', 'kubejs:inspiration')
     event.replaceInput({'id': 'permanentsponges:magmatic_sponge'}, 'white_wool', 'permanentsponges:aqueous_sponge')
     event.replaceInput({'id': 'thermal:saw_blade'}, 'iron_ingot', '#forge:plates/iron')
-    event.replaceInput('*', 'create:electron_tube', 'immersiveengineering:electron_tube')
     event.replaceInput({'id': 'scguns:powder_and_ball'}, 'paper', Ingredient.of('paper').or('farmersdelight:canvas'))
     event.replaceInput({'id': 'scguns:stone_gun_barrel'}, 'stone', 'iron_ingot')
     let alternatives = {'wooden': 'copper', 'stone': 'bronze'}

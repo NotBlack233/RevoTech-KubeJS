@@ -126,7 +126,8 @@ ClientEvents.lang('zh_cn', event => {
         ['scguns:repair_kit', '修理套装'],
         ['scguns:special_ammo_box', '特殊弹药盒'],
         ['scguns:stone_gun_barrel', '铁制枪管'],
-        ['scguns:wooden_stock', '木制枪托']
+        ['scguns:wooden_stock', '木制枪托'],
+        ['create:electron_tube', '红石管']
     ]
     /**
      * @type {[Internal.Block_, string][]}
