@@ -43,5 +43,6 @@ ServerEvents.recipes(event => {
     removeById('immersiveengineering:crafting/gunpowder_from_dusts')
     removeById('tacz:gunpowder')
     removeById('minecraft:compass')
+    removeById('create_new_age:sequenced_assembly/enchanted_golden_apple')
     event.remove({'type': 'ad_astra:alloying'})
 })
