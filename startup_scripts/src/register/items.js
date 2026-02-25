@@ -40,6 +40,7 @@ StartupEvents.registry('item', event => {
     event.create('calcium_carbonate_dust')
     event.create('calcium_oxide_dust')
     event.create('elytra_piece').rarity('uncommon')
+    event.create('universal_press')
     event.create('incomplete_electron_tube', 'create:sequenced_assembly')
     event.create('incomplete_paper', 'create:sequenced_assembly')
     // Tools

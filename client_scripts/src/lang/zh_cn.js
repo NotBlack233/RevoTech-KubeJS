@@ -127,7 +127,8 @@ ClientEvents.lang('zh_cn', event => {
         ['scguns:special_ammo_box', '特殊弹药盒'],
         ['scguns:stone_gun_barrel', '铁制枪管'],
         ['scguns:wooden_stock', '木制枪托'],
-        ['create:electron_tube', '红石管']
+        ['create:electron_tube', '红石管'],
+        ['kubejs:universal_press', '通用压印模板']
     ]
     /**
      * @type {[Internal.Block_, string][]}

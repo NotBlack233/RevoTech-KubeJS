@@ -83,7 +83,8 @@ ClientEvents.lang('zh_cn', event => {
      */
     let items = [
         ['scguns:stone_gun_barrel', 'Iron Gun Barrel'],
-        ['create:electron_tube', 'Redstone Tube']
+        ['create:electron_tube', 'Redstone Tube'],
+        ['kubejs:universal_press', 'Universal Press']
     ]
     /**
      * @type {[Internal.Block_, string][]}

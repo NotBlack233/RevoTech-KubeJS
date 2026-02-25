@@ -39,6 +39,10 @@ ServerEvents.recipes(event => {
     shaped('kubejs:wood_slip', ['WSW', 'WSW'], {W: '#minecraft:planks', S: Ingredient.of('#forge:string').or('farmersdelight:straw').or('immersiveengineering:hemp_fiber')})
     shaped('kubejs:paper_stack', ['PPP'], {P: 'paper'})
     shaped('compass', [' M ', 'IRI', ' M '], {M: 'create_new_age:magnetite_block', I: 'iron_ingot', R: 'redstone'})
+    shaped('chainmail_helmet', ['CCC', 'N N'], {C: 'chain', N: '#forge:nuggets/iron'})
+    shaped('chainmail_chestplate', ['N N', 'NCN', 'CCC'], {C: 'chain', N: '#forge:nuggets/iron'})
+    shaped('chainmail_leggings', ['CCC', 'C C', 'N N'], {C: 'chain', N: '#forge:nuggets/iron'})
+    shaped('chainmail_boots', ['N N', 'C C'], {C: 'chain', N: '#forge:nuggets/iron'})
 
     shapeless('kubejs:aqua_bun', ['#forge:dough', 'kubejs:inspiration'])
     shapeless('supplementaries:antique_ink', ['glass_bottle', 'ink_sac', '#forge:feathers'])
