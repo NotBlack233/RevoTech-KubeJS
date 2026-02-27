@@ -43,6 +43,28 @@ ServerEvents.recipes(event => {
     shaped('chainmail_chestplate', ['N N', 'NCN', 'CCC'], {C: 'chain', N: '#forge:nuggets/iron'})
     shaped('chainmail_leggings', ['CCC', 'C C', 'N N'], {C: 'chain', N: '#forge:nuggets/iron'})
     shaped('chainmail_boots', ['N N', 'C C'], {C: 'chain', N: '#forge:nuggets/iron'})
+    shaped('kubejs:universal_press', ['ABC', 'MSM', 'DEF'], {
+        A: 'ae2:calculation_processor_press',
+        B: 'ae2:engineering_processor_press',
+        C: 'ae2:logic_processor_press',
+        D: 'ae2:silicon_press',
+        E: 'appflux:energy_processor_press',
+        F: 'advanced_ae:quantum_processor_press',
+        M: 'ae2:matter_ball',
+        S: 'ae2:singularity'
+    })
+    shaped('4x ae2:not_so_mysterious_cube', ['SUS', 'UMU', 'SUS'], {
+        S: 'ae2:smooth_sky_stone_block',
+        U: 'kubejs:universal_press',
+        M: 'ae2:controller'
+    })
+    shaped('expatternprovider:circuit_cutter', ['IGI', 'TUS'], {
+        I: '#forge:ingots/iron',
+        G: 'ae2:quartz_glass',
+        T: 'ae2:sky_stone_tank',
+        U: 'kubejs:universal_press',
+        S: 'stonecutter'
+    })
 
     shapeless('kubejs:aqua_bun', ['#forge:dough', 'kubejs:inspiration'])
     shapeless('supplementaries:antique_ink', ['glass_bottle', 'ink_sac', '#forge:feathers'])

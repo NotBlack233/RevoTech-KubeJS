@@ -1,0 +1,13 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "type": "pneumaticcraft:stacked_item",
+    "count": 64,
+    "tag": "forge:storage_blocks/amethyst"
+  },
+  "program": "laser",
+  "result": {
+    "count": 1,
+    "item": "minecraft:budding_amethyst"
+  }
+}
