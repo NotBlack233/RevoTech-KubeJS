@@ -1,0 +1,17 @@
+{
+  "type": "mekmm:stamper",
+  "input": {
+    "ingredient": {
+      "item": "minecraft:diamond"
+    },
+    "amount": 4
+  },
+  "mold": {
+    "ingredient": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "output": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

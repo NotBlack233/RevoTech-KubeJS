@@ -46,4 +46,5 @@ ServerEvents.recipes(event => {
     removeById('minecraft:compass')
     removeById('create_new_age:sequenced_assembly/enchanted_golden_apple')
     event.remove({'type': 'ad_astra:alloying'})
+    event.remove({'output': 'pneumaticcraft:wheat_flour'})
 })

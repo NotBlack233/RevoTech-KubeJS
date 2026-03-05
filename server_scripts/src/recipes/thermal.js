@@ -21,6 +21,8 @@ ServerEvents.recipes(event => {
 
     t.insolator([Item.of('miners_delight:cave_carrot').withChance(2.5)], ['miners_delight:cave_carrot'])
 
+    t.bottler(['create:rose_quartz'], ['quartz', Fluid.of('thermal:redstone', 400)])
+
     t.rock_gen('create:scoria', 'air', 'create:chocolate')
     t.rock_gen('create:scorchia', 'magma_block', 'create:chocolate')
     

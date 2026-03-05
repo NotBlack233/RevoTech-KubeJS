@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
         'S': 'permanentsponges:aqueous_sponge_on_a_stick'
     })
     shaped('fishing_rod', ['  S', ' ST', 'SIT'], {S: '#forge:rods/wooden', T: '#forge:string', I: '#forge:nuggets/iron'})
-    shaped('create:mechanical_saw', [' S ', ' B ', ' M '], {S: 'create:shaft', B: 'thermal:saw_blade', M: 'create:andesite_casing'})
+    shaped('create:mechanical_saw', [' A ', 'ABA', ' M '], {A: 'create:andesite_alloy', B: 'thermal:saw_blade', M: 'create:andesite_casing'})
     shaped('create_new_age:generator_coil', ['SSS', 'SBS', 'SSS'], {S: 'immersiveengineering:wirecoil_copper', B: '#forge:storage_blocks/steel'})
     shaped('create_new_age:carbon_brushes', ['ASA', 'CHC', 'ASA'], {A: 'create:andesite_alloy', S: '#forge:ingots/steel', C: '#forge:coal_coke', H: 'create:shaft'})
     shaped('revotech:research_table', ['FF', 'PP'], {F: 'flint', P: '#minecraft:planks'})
@@ -65,6 +65,7 @@ ServerEvents.recipes(event => {
         U: 'kubejs:universal_press',
         S: 'stonecutter'
     })
+    shaped('bell', [['gold_block'], ['#forge:plates/gold']])
 
     shapeless('kubejs:aqua_bun', ['#forge:dough', 'kubejs:inspiration'])
     shapeless('supplementaries:antique_ink', ['glass_bottle', 'ink_sac', '#forge:feathers'])
@@ -72,11 +73,13 @@ ServerEvents.recipes(event => {
     shapeless('6x gunpowder', ['2x #forge:dusts/sulfur', '#forge:dusts/niter', '3x #forge:charcoal', 'sugar'])
 
     // Modify
+    event.replaceInput({'id': 'create:crafting/kinetics/mechanical_drill'}, 'iron_ingot', 'thermal:drill_head')
     event.replaceInput({'id': 'tiab:time_in_a_bottle'}, 'glass_bottle', 'kubejs:inspiration')
     event.replaceInput({'id': 'permanentsponges:magmatic_sponge'}, 'white_wool', 'permanentsponges:aqueous_sponge')
     event.replaceInput({'id': 'thermal:saw_blade'}, 'iron_ingot', '#forge:plates/iron')
     event.replaceInput({'id': 'scguns:powder_and_ball'}, 'paper', Ingredient.of('paper').or('farmersdelight:canvas'))
     event.replaceInput({'id': 'scguns:stone_gun_barrel'}, 'stone', 'iron_ingot')
+    event.replaceInput({'id': 'pneumaticcraft:raw_salmon_tempura'}, 'salmon', '#forge:raw_fishes/salmon')
     let alternatives = {'wooden': 'copper', 'stone': 'bronze'}
     for (let material in alternatives) {
         for (let type of types) {

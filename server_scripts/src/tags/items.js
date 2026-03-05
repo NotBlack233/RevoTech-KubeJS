@@ -29,4 +29,5 @@ ServerEvents.tags('item', event => {
     event.add('revotech:caco3_rocks', '#create:stone_types/calcite', '#create:stone_types/limestone', '#create:stone_types/dripstone')
     event.add('create:pulpifiable', '#forge:sawdust')
     event.add('create:upright_on_belt', 'kubejs:inspiration', 'kubejs:inspiration_fluid_bucket')
+    event.add('forge:slimeballs', 'thermal_extra:sticky_ball', 'thermal:tar')
 })
