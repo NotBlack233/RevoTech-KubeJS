@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
     c.mixing(['create:pulp'], ['4x #create:pulpifiable', Fluid.water(500), 'kubejs:calcium_oxide_dust'])
     c.mixing(['create:andesite_alloy'], ['andesite', Ingredient.of('#forge:nuggets/iron').or('#forge:nuggets/zinc')]).heated()
     c.mixing(Fluid.of('kubejs:inspiration_fluid', 10), [Fluid.of('create_enchantment_industry:hyper_experience', 10), '4x amethyst_shard', '2x thermal_extra:ancient_dust']).superheated()
-    c.milling(['8x createdieselgenerators:asphalt_block'], ['2x #forge:sand', '2x gravel', 'thermal:bitumen'])
+    c.mixing(['4x createdieselgenerators:asphalt_block'], ['gravel', '#forge:sand', 'thermal:bitumen']).heated()
     c.crushing([Item.of('kubejs:calcium_carbonate_dust', 2), Item.of('kubejs:calcium_carbonate_dust', 2).withChance(0.5)], ['#revotech:caco3_rocks'])
     c.crushing(['2x kubejs:elytra_piece', Item.of('kubejs:elytra_piece').withChance(0.1)], 'elytra')
 
